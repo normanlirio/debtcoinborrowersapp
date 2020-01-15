@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/stepsix_container"
+    android:background="@drawable/img_background"
+    tools:context="com.debtcoin.debtcoinapp.Fragments.StepSix">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <include
+            layout="@layout/custom_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:layout_marginBottom="@dimen/text_720"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:text="@string/financial_info"
+                android:textColor="@color/md_white_1000"
+                android:textStyle="bold"
+                android:textSize="@dimen/twentysix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="@color/md_white_1000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bankname"
+                android:textSize="@dimen/text_720"
+                />
+
+
+            <EditText
+                android:nextFocusDown="@id/edit_stepsix_accounttype"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:id="@+id/edit_stepsix_bankname"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_720"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="@color/md_white_1000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accounttypestepsix"
+                android:textSize="@dimen/text_720"
+                />
+            <EditText
+                android:nextFocusDown="@id/edit_stepsix_accountnumber"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:id="@+id/edit_stepsix_accounttype"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/eighteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="@color/md_white_1000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accountnumberstepsix"
+                android:textSize="@dimen/text_720"
+                />
+            <EditText
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLines="1"
+                android:id="@+id/edit_stepsix_accountnumber"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/eighteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720"
+                android:text="@string/notestep6"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/next_button" />
+</RelativeLayout>

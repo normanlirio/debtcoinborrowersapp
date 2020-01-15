@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+
+    android:id="@+id/relative_customaction_container"
+    android:background="@android:color/transparent"
+
+    >
+    <!--<ImageView-->
+
+        <!--android:visibility="visible"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_width="24dp"-->
+        <!--android:layout_height="24dp"-->
+        <!--android:id="@+id/img_actionbar_backOrBurger"-->
+        <!--android:background="@drawable/ic_back_arrow"-->
+        <!--android:tint="@color/md_white_1000"-->
+        <!--/>-->
+    <TextView
+        android:layout_centerInParent="true"
+        android:gravity="left"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Debtcoin PH"
+        android:textColor="#ffffff"
+        android:id="@+id/text_actionbar_title"
+        android:textSize="@dimen/custom_action_bar_loggedin_480" />
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="25dp"
+            android:layout_toLeftOf="@id/img_actionbar_home"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            android:layout_width="34dp"
+            android:layout_height="20dp"
+            android:id="@+id/img_actionbar_notif"
+
+            />
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:visibility="visible"
+            android:layout_alignParentRight="true"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:id="@+id/img_actionbar_home"
+            android:background="@drawable/ic_home"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

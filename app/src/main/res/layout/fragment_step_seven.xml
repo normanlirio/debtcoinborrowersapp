@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/stepseven_container"
+    android:background="@drawable/img_background"
+
+    tools:context="com.debtcoin.debtcoinapp.Fragments.StepSeven">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <include
+            layout="@layout/custom_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="@string/stepseven_title"
+                android:textColor="@color/md_white_1000"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+
+                android:id="@+id/img_stepseven_result"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/rounded_edittext"
+                />
+            <TextView
+                android:layout_marginTop="80dp"
+
+                android:id="@+id/text_stepseven_retake"
+                android:visibility="gone"
+                android:padding="5dp"
+                android:textSize="@dimen/text_normal"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/md_white_1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/retake"
+                />
+            <Button
+
+                android:id="@+id/button_stepseven_camera"
+                android:layout_marginTop="85dp"
+                android:layout_gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/ic_camera_button"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/next_button" />
+</RelativeLayout>

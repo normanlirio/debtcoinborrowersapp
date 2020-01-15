@@ -1,0 +1,700 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    android:id="@+id/stepten_container"
+
+    tools:context="com.debtcoin.debtcoinapp.Fragments.StepTen">
+    <include layout="@layout/layyout_thankyou" />
+    <RelativeLayout
+        android:id="@+id/relative_stepten_chilccontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <include
+            layout="@layout/custom_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <ScrollView
+
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="@dimen/text_720"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/please_review"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_info"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="@dimen/text_720"
+                        android:textStyle="bold"
+                        />
+                    <!-- username -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Username: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_user"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Juan Dela Cruz"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end username -->
+                    <!-- password -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Password: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_pass"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="********"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end password -->
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/md_white_1000"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/personal_info_text"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="@dimen/text_720"
+                        android:textStyle="bold"
+                        />
+                    <!-- Full name -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Full Name: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_fname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Juan Dela Cruz"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end full name -->
+
+                    <!-- ID Doc type -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ID Document Type: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_doctype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SSS"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end doc type -->
+
+                    <!-- doc num -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ID Document Number: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_docnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="463-909-265"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end doc num -->
+                    <!-- dob -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date of Birth: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_dob"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="May 2, 1993"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end dob -->
+
+                    <!-- Mobile number -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mobile Number: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_mobnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="09123456789"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end mobile number -->
+                    <!-- present address -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Present Address: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_presentaddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Quezon City"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end present address-->
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/md_white_1000"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/employment_info"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="@dimen/text_720"
+                        android:textStyle="bold"
+                        />
+
+                    <!-- status -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Status: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Self-employed"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end status-->
+
+                    <!-- emp business name -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Employer or\nBusiness Name "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_emporbusinessname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TripAvenue, Inc."
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end emp business name-->
+
+                    <!-- nature -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nature: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_nature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Marketing &amp; Design"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end nature-->
+                    <!-- job pos -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Job Position: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_jobpos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Civil Engineer"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end nature-->
+                    <!-- emp address -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Address: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_empaddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="143, Macapagal, Bagong St., Manila City"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end nature-->
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/md_white_1000"
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reference_info"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="@dimen/text_720"
+                        android:textStyle="bold"
+                        />
+                    <!-- ref 1 name -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reference 1 Name: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_ref1name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gil Aslen Amion"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end ref 1 name-->
+                    <!-- ref 1 num or business -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mobile Number or \nUser ID "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_ref1numorbusi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0998-984-4714"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end ref 1 num or business-->
+                    <!-- ref 1 name -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reference 2 Name: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_ref2name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gil Aslen Amion"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end ref 1 name-->
+
+                    <!-- ref 2 num or business -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mobile Number or \nUser ID "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_ref2numorbusi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0998-984-4714"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end ref 2 num or business-->
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/md_white_1000"
+                        />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/financial_info"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="@dimen/text_720"
+                        android:textStyle="bold"
+                        />
+
+                    <!-- bank name -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bank Name: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_bankname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Banco De Oro"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end bank name-->
+                    <!-- accnt type -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Account Type: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_accnttype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Savings"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end accnt type-->
+                    <!-- accnt num -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Account Number: "
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+
+                            />
+                        <TextView
+                            android:id="@+id/text_stepten_accntnum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="00-123-456-7890"
+                            android:textSize="@dimen/text_720"
+                            android:textColor="@color/md_white_1000"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                    <!-- end accnt num-->
+
+                    <ImageView
+
+                        android:id="@+id/img_stepten_sevenimage"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/rounded_edittext"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/govid"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_720"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/md_white_1000"
+                        />
+                    <ImageView
+
+                        android:id="@+id/img_stepten_eightimage"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:background="@drawable/rounded_edittext"
+                        />
+                    <TextView
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/selfiewithid"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_720"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/md_white_1000"
+                        />
+
+                    <include layout="@layout/next_button" />
+                </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

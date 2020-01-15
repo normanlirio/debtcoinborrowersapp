@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stepfour_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    tools:context="com.debtcoin.debtcoinapp.Fragments.StepFour">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <include
+            layout="@layout/custom_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/employment_info"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/twentyfour"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/emp_status"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_bg">
+
+                <Spinner
+                    android:popupBackground="@color/debtcoin_light_blue"
+                    android:id="@+id/spinner_stepfour_empstat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+
+                    android:spinnerMode="dropdown" />
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_arrow_drop_down" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/emp_or_busi"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+
+            <EditText
+                android:nextFocusDown="@id/edit_stepfour_nature"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:id="@+id/edit_stepfour_empname_businname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/nature"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+            <EditText
+                android:nextFocusDown="@id/edit_stepfour_pos"
+                android:inputType="textPersonName"
+                android:id="@+id/edit_stepfour_nature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/jobpos"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+            <EditText
+                android:nextFocusDown="@id/edit_stepfour_employeradd"
+                android:inputType="textPersonName"
+                android:id="@+id/edit_stepfour_pos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/empadd"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+            <EditText
+                android:inputType="textPersonName"
+                android:id="@+id/edit_stepfour_employeradd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:imeOptions="actionDone"
+                android:backgroundTint="@color/md_white_1000"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_600" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/next_button" />
+</RelativeLayout>

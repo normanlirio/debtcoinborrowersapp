@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/img_background"
+    android:id="@+id/thankyou_container"
+    android:padding="15dp"
+    android:visibility="gone"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thankyou_sign"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/twentysix"
+                />
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_720"
+                android:text="@string/for_now"
+                android:textColor="@color/md_white_1000"
+                />
+
+            <Button
+                android:id="@+id/button_thankyou_back"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_done"
+                android:layout_width="160dp"
+                android:layout_height="51dp"
+                android:textSize="@dimen/text_720"
+                android:textColor="@color/md_black_1000"
+                android:text="DONE"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+
+    android:id="@+id/steptwo_container"
+    tools:context="com.debtcoin.debtcoinapp.Fragments.StepTwo">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <include
+            layout="@layout/custom_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- TODO: Update blank fragment layout -->
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/enter_codes"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="@dimen/text_720" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="120">
+
+                    <EditText
+                        android:nextFocusRight="@id/edit_steptwo_codes_2"
+                        android:id="@+id/edit_steptwo_codes_1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="20"
+                        android:backgroundTint="@color/md_white_1000"
+                        android:maxLength="1"
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:inputType="textCapCharacters"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:inputType="textCapCharacters"
+                        android:nextFocusRight="@id/edit_steptwo_codes_3"
+                        android:id="@+id/edit_steptwo_codes_2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="20"
+                        android:backgroundTint="@color/md_white_1000"
+                        android:maxLength="1"
+
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:inputType="textCapCharacters"
+                        android:nextFocusRight="@id/edit_steptwo_codes_4"
+                        android:id="@+id/edit_steptwo_codes_3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="20"
+                        android:backgroundTint="@color/md_white_1000"
+                        android:maxLength="1"
+
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:inputType="textCapCharacters"
+                        android:nextFocusRight="@id/edit_steptwo_codes_5"
+                        android:id="@+id/edit_steptwo_codes_4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="20"
+                        android:backgroundTint="@color/md_white_1000"
+                        android:maxLength="1"
+
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:inputType="textCapCharacters"
+                        android:nextFocusRight="@id/edit_steptwo_codes_6"
+                        android:id="@+id/edit_steptwo_codes_5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="20"
+                        android:backgroundTint="@color/md_white_1000"
+                        android:maxLength="1"
+
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="30sp" />
+
+                    <EditText
+                        android:inputType="textCapCharacters"
+                        android:id="@+id/edit_steptwo_codes_6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="20"
+                        android:backgroundTint="@color/md_white_1000"
+                        android:imeOptions="actionDone"
+                        android:maxLength="1"
+                        android:maxLines="1"
+                        android:padding="10dp"
+                        android:textColor="@color/md_white_1000"
+                        android:textSize="30sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_steptwo_codemsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/steptwo_message"
+                    android:textColor="@color/md_white_1000"
+                    android:textSize="@dimen/text_720" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+    <include layout="@layout/next_button" />
+</RelativeLayout>

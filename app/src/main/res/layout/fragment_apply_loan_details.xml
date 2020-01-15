@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_applyloan_details_container"
+    android:background="@drawable/img_background"
+    tools:context="com.debtcoin.debtcoinapp.Fragments.ApplyLoanDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:padding="15dp"
+                android:background="@color/md_white_400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/applyloandetails_reason"
+                    android:textSize="@dimen/text_normal"
+                    android:textColor="@color/md_white_1000"
+                    />
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="20"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_bg">
+
+                    <Spinner
+                        android:popupBackground="@color/debtcoin_light_blue"
+                        android:id="@+id/spinner_applyloandetails_reason"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_arrow_drop_down" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_marginTop="15dp"
+                android:padding="15dp"
+                android:background="@color/md_white_400"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical"
+                >
+               <EditText
+                   android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.@!,:#() "
+                   android:id="@+id/edit_applyloandetails_details"
+                   android:padding="15dp"
+                   android:hint="Details"
+                   android:gravity="top"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="@drawable/edittext_bg2"
+                   />
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                  android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/text_applyloandetails_prev"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_white_1000"
+                    android:text="@string/prev"
+                    android:padding="5dp"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/text_normal"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/text_applyloandetails_next"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/md_white_1000"
+                    android:text="@string/next"
+                    android:padding="5dp"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/text_normal"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

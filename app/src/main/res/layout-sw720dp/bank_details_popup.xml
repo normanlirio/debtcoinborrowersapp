@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="@string/ifpayment"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720" />
+
+            <TextView
+                android:id="@+id/text_bankpopup_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPI"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_bankpopup_bankaccount_num_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="@string/bankaccnt"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720" />
+
+            <TextView
+                android:id="@+id/text_bankpopup_bankaccount_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4999-0662-89"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_bankpopup_middlecontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_bankpopup_mobilenumber_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="@string/mobnumber"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720" />
+
+            <TextView
+                android:id="@+id/text_bankpopup_mobilenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0998-984-4714"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_bankpopup_lastcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_bankpopup_accntname_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="@string/accntname"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720" />
+
+            <TextView
+                android:id="@+id/text_bankpopup_accntname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crisostomo B. Ferrer"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_720" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button_bankpopup_close"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/img_next_button_bg"
+            android:layout_width="120dp"
+            android:layout_height="39dp"
+            android:textColor="@color/md_white_1000"
+            android:text="@string/close"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

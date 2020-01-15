@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    tools:context="com.debtcoin.debtcoinapp.Fragments.MakePaymentConfirmation">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/makepayment_confirmation_title"
+                android:gravity="center"
+                android:textSize="@dimen/twentyfour"
+                android:textStyle="bold"
+                android:textColor="@color/md_white_1000"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/makepayment_confirmation_subtitle"
+                android:gravity="left"
+                android:textSize="@dimen/text_600"
+                android:textStyle="bold"
+                android:textColor="@color/md_white_1000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/makepayment_confirmation_body"
+                android:layout_marginTop="15dp"
+                android:textSize="@dimen/text_600"
+
+                android:textColor="@color/md_white_1000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/makepayment_confirmation_body2"
+                android:layout_marginTop="15dp"
+                android:textSize="@dimen/text_600"
+
+                android:textColor="@color/md_white_1000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/makepayment_confirmation_body3"
+                android:layout_marginTop="15dp"
+                android:textSize="@dimen/text_600"
+
+                android:textColor="@color/md_white_1000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/makepayment_confirmation_debtcointeam"
+                android:layout_marginTop="15dp"
+                android:textSize="@dimen/text_600"
+
+                android:textColor="@color/md_white_1000"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

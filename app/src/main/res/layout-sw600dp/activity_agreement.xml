@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    tools:context="com.debtcoin.debtcoinapp.Activities.AgreementActivity">
+    <ScrollView
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/tabbed_buttons"></include>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/text_600"
+                android:textColor="@color/md_white_1000"
+                android:id="@+id/text_agreement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+         <include layout="@layout/next_button"></include>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stepfive_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    tools:context="com.debtcoin.debtcoinapp.Fragments.StepFive">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        >
+        <include
+            layout="@layout/custom_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_normal"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reference_info"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/twenty"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/ref1"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_normal" />
+
+
+            <EditText
+                android:nextFocusDown="@id/edit_stepfive_ref1_userornum"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:id="@+id/edit_stepfive_ref1_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/userornum"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_normal" />
+
+            <EditText
+                android:nextFocusDown="@id/edit_stepfive_ref2_name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:id="@+id/edit_stepfive_ref1_userornum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/eighteen" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/ref2name"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_normal" />
+
+            <EditText
+                android:nextFocusDown="@id/edit_stepfive_ref2_userornum"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:id="@+id/edit_stepfive_ref2_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/md_white_1000"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/eighteen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/ref2userornum"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/text_normal" />
+
+            <EditText
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:id="@+id/edit_stepfive_ref2_userornum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/md_white_1000"
+                android:textColor="@color/md_white_1000"
+                android:textSize="@dimen/eighteen" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/notestep5"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/text_normal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/next_button" />
+</RelativeLayout>

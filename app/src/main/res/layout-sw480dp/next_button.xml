@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:id="@+id/next_button_container"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+
+        android:clipToPadding="false"
+        android:layout_centerInParent="true"
+
+
+       android:gravity="center"
+        android:id="@+id/button_next"
+        android:layout_alignParentBottom="true"
+        android:text="Next"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_480"
+        android:textColor="@color/md_white_1000"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/img_next_button_bg"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sendusamsg"
+            android:textColor="@color/md_white_1000"
+            android:textSize="@dimen/text_720"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <EditText
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:layout_marginRight="5dp"
+                android:textSize="@dimen/text_720"
+                android:maxLines="1"
+                android:id="@+id/edit_faq_fname"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:background="@drawable/edittext_bg"
+                android:hint="Full name"
+                android:padding="8dp" />
+
+            <EditText
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="@dimen/text_720"
+                android:maxLines="1"
+                android:id="@+id/edit_faq_email"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:background="@drawable/edittext_bg"
+                android:hint="Email"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <EditText
+                android:imeOptions="actionNext"
+                android:nextFocusRight="@id/edit_faq_uid"
+                android:singleLine="true"
+                android:textSize="@dimen/text_720"
+                android:maxLines="1"
+                android:id="@+id/edit_faq_number"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="50"
+                android:background="@drawable/edittext_bg"
+                android:hint="Mobile number"
+                android:padding="8dp" />
+
+            <EditText
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textSize="@dimen/text_720"
+                android:maxLines="1"
+                android:id="@+id/edit_faq_uid"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="50"
+                android:background="@drawable/edittext_bg"
+                android:hint="User ID"
+                android:padding="8dp" />
+        </LinearLayout>
+
+
+        <EditText
+            android:textSize="@dimen/text_720"
+            android:id="@+id/edit_faq_msg"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="50"
+            android:background="@drawable/edittext_bg"
+            android:gravity="top"
+            android:hint="Your Message"
+            android:padding="8dp"
+           />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_faq_submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/img_next_button_bg"
+        android:elevation="1dp"
+        android:stateListAnimator="@null"
+        android:text="SUBMIT"
+        android:textColor="@color/md_white_1000"
+        android:textSize="@dimen/text_720"
+        />
+
+</LinearLayout>

@@ -1,0 +1,483 @@
+<resources>
+    <string name="app_name">Debtcoin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login">LOGIN</string>
+    <string name="action_settings">Settings</string>
+    <string name="registerhere"><u>Register Here</u></string>
+    <string name="viewfaq"><u>View FAQs</u></string>
+    <string name="sorryforthe">Sorry for the inconvenience!</string>
+    <string name="sorrymessage">
+       Since Debtcoin is just a newly-established company and we are still in the stage of enhancing the system, we limit the registered applicants. And sadly, the approved loan applicants for private sector had exceeded the quantity that we set. Thus, for now, we only accept loan applicants from public sector. We hope for your understanding.
+\n\n
+If you are a government employee and wanted to avail a loan, just message us thru our mobile app and we will open a slot for you to continue registering.
+\n\n
+For other concerns, contact our support team at 0998-984-4714 or email us thru debtcoinph@gmail.com.
+
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_email">Please enter your email address:</string>
+    <string name="enter_codes">Please enter the codes sent to your email</string>
+    <string name="steptwo_message">Insertion of this Code confirms that you understand and agree to Debtcoin <u>Terms &amp; Conditions</u> and <u>Privacy Policy</u></string>
+    <string name="next">Next</string>
+    <string name="stepone">STEP 1 OF 10</string>
+    <string name="steptwo">STEP 2 OF 10</string>
+    <string name="stepthree">STEP 3 OF 10</string>
+    <string name="stepfour">STEP 4 OF 10</string>
+    <string name="stepfive">STEP 5 OF 10</string>
+    <string name="stepsix">STEP 6 OF 10</string>
+    <string name="stepseven">STEP 7 OF 10</string>
+    <string name="stepeight">STEP 8 OF 10</string>
+    <string name="stepnine">STEP 9 OF 10</string>
+    <string name="stepten">STEP 10 OF 10</string>
+    <string name="personal_info_text">Personal Information</string>
+    <string name="fullname">Full Name</string>
+    <string name="iddoctype">Your ID Document Type</string>
+    <string name="sss">SSS</string>
+    <string name="tin">TIN</string>
+    <string name="prc">PRC</string>
+    <string name="iddocnum">ID Document Number</string>
+    <string name="dob">Date of Birth</string>
+    <string name="mobnumber">Mobile Number</string>
+    <string name="address">Present Address</string>
+    <string name="employment_info">Employment Information</string>
+    <string name="emp_status">Employment Status</string>
+    <string name="emp_or_busi">Employer Name or Business Name</string>
+    <string name="nature">Nature of Employer or Business</string>
+    <string name="jobpos">Job Position</string>
+    <string name="empadd">Employer or Business Address</string>
+    <string name="ref1">Reference 1 Name</string>
+    <string name="userornum">Reference 1 User ID or Mobile Number</string>
+    <string name="ref2name">Reference 2 Name</string>
+    <string name="ref2userornum">Reference 2 User ID or Mobile Number</string>
+    <string name="notestep5">Note: Being referred by existing customer can get higher chance of approval, but optional.</string>
+    <string name="reference_info">Reference Information</string>
+    <string name="financial_info">Financial Information</string>
+    <string name="bankname">Bank Name</string>
+    <string name="accounttypestepsix">Account Type</string>
+    <string name="accountnumberstepsix">Account Number</string>
+    <string name="notestep6">Note: Providing bank details can get higher chance of approval, but optional. \n(put N/A if no bank details)</string>
+    <string-array name="employmentstatus">
+
+        <item>Employed</item>
+        <item>Self-Employed</item>
+        <item>Business Owner</item>
+
+    </string-array>
+    <string name="API_URL">http://54.179.177.185:8080/</string>
+    <string name="stepseven_title">Please take a picture of Government ID document (front)</string>
+    <string name="retake">RETAKE</string>
+    <string name="stepeight_title">Please take a selfie with your Government ID</string>
+    <string name="please_review">Please review and make sure that all info is correct before you submit:</string>
+    <string name="govid">Government ID (front)</string>
+    <string name="selfiewithid">Selfie with ID</string>
+    <string name="thankyou_sign">Thank you for signing up!</string>
+    <string name="for_now">For now, your application is under verification, please wait for at least 24 hours. Once approved, our Credit Officer will notify you thru SMS. If you have any questions regarding your application, our support team is available to help you, just contact us thru fb.com/debtcoinph or thru mobile number 0998-984-4714.</string>
+    <string name="login_info">Login Information</string>
+    <string name="desireduser">Desired Username</string>
+    <string name="desiredpass">Desired Password</string>
+    <string name="whatisdebtcoin">What is Debtcoin all about?</string>
+    <string name="whyapplication">Why application was not approved?</string>
+    <string name="howmuchqualify">How much the borrower could qualify for?</string>
+    <string name="howapplicantreceive">How the applicants receive/claim the loan?</string>
+    <string name="howrepay">How the borrowers repay the loan?</string>
+    <string name="howcontanct">How the applicant or borrower can contact Debtcoin?</string>
+    <string name="taptoview">Tap to view more</string>
+    <string name="sendusamsg">Send us a message</string>
+    <string name="whatisdebtcoin_c">Debtcoin is a micro-lending corporation that uses latest technology such as developing mobile
+applications to offer personalized lending experience.</string>
+    <string name="vision">Vision</string>
+    <string name="vision_desc">For short term, Debtcoin is the primary option of Filipinos in providing them small loans using our lending
+technology for convenient and enjoyable transactions. \nFor long term, Debtcoin expands as financial entity that extends its system features and professional
+services to invest, offer loans and finance Filipino entrepreneurs’ business ideas.</string>
+    <string name="mission">Mission</string>
+    <string name="mission_desc">Internally, we intend to create and nurture a healthy, exuberant and respectful environment in which
+employees are fairly compensated and encouraged to respect the customers and the quality of service
+we intend to provide.\nExternally, excellence in fulfilling the promise: we intend to offer completely enjoyable lending interface at
+faster approval, bigger initial credit limit, lower interest rate and few loan requirements.</string>
+    <string name="whyapplicantnotapprived_c">Our Credit Team verifies the application at fast pace. Loan approval was based on many pieces of
+information that the applicant provides during the sign-up phase. If not approved, this is due to the
+information you provide that did not pass the standard that we set, like the ID picture, employment status
+and reference.\n\nThe applicant should keep the app installed since our Credit Team may contact at a later date for re-application.</string>
+    <string name="howmuchborrower_c">We offer small loans up to Php 50,000 for our most qualified customers. First time borrowers start at
+lower amounts. The credit limit is indicated thru our system’s ranking features.\n\nAs rank increases, the credit limit also increases. To advance in rank, the borrower should pay dues on
+time and refer as many approved applicants as possible.\n\nWe honour requests for limit increase, as long as the reason is justifiable and the borrower is qualified.
+</string>
+    <string name="howapplicantsreceive_c">Once approved, the borrower has many convenient ways to receive the loan proceed including
+remittance centers, direct to bank account registered during sign-up stage, or Coins.ph e-wallet.\n\nTo receive the loan, simply choose the preferred method. Make sure that the information provided must
+be correct to avoid delays.\n\nTo claim the loan proceed thru Coins.ph, sign up for a Coins.ph account, then complete phone, identity,
+and selfie verification to receive the loan in the Coins.ph wallet.</string>
+    <string name="howborrowersrepay_c_p1">Upon applying for loan, the borrower will be provided with amortization schedule table, and dues shall be
+paid on time.\n\nThe borrower can conveniently make payments with remittance centers (MLhuillier, Cebuana, Palawan
+or Villarica), direct to banks as deposit or fund transfer (BDO, BPI or LBP), or thru Coins.ph wallet. Tap
+the logos below for the account details.
+</string>
+    <string name="howborrowersrepay_c_p2">Simply return to the home screen or tap the menu
+button, then tap “Make a Payment” to get started. </string>
+    <string name="taptoseemore">Tap to see more</string>
+    <string name="howborrowersrepay_c_p3">There are no penalties for paying early. Instead early
+and on time payments will increase the rank, thus
+increases the credit limit.\n\nA late payment fee of six percent (6%) of the past due balance shall be imposed. An overlapping fee
+amounting to Php 250.00 shall be imposed every time the borrower’s dues overlapped. In case the
+borrower has no payment activity in the previous three (3) months or certain stipulations are not met,
+the issue will be subject to legal action.</string>
+    <string name="howborrowerscontact_c">If there are inquiries or concerns, our team is available from Monday-Saturday, between 8am-5pm. Just
+contact us thru our email debtcoinph@gmail.com or call us thru 0998-984-4714..
+</string>
+    <string name="ifpayment">If payment will be made thru </string>
+    <string name="accntname">Account Name:</string>
+    <string name="bankaccnt">BPI Account:</string>
+    <string name="close">Close</string>
+    <string name="navheader_currentrank">Current Rank:</string>
+    <string name="navheader_creditlimit">Credit Limit:</string>
+    <string name="navheader_referrals">Referrals:</string>
+    <string name="overview_current_amount">Current Loan Amount</string>
+    <string name="overview_terms">Terms (in days)</string>
+    <string name="overview_payable_amount">Total Payable Amount</string>
+    <string name="overview_num_of_payments">Number of Payments (Every 15 days)</string>
+    <string name="overview_payments_made">Number of Payments Made</string>
+    <string name="overview_amount_due">Total Amount Due</string>
+    <string name="overview_total_amount_due_footer">(Due Date) or (Payment Due Immediately)</string>
+    <string name="overview_notice">Notice:</string>
+    <string name="overview_cannot_apply">- You cannot apply for another loan.</string>
+    <string name="debtcoin_works_quote">\"Experience our personalized lending technology, at faster approval, bigger initial credit limit, lower interest rate and few loan requirements.\"</string>
+    <string name="debtcoin_works_step1">Step 1 of 5</string>
+    <string name="debtcoin_works_step2">Step 2 of 5</string>
+    <string name="debtcoin_works_step3">Step 3 of 5</string>
+    <string name="debtcoin_works_step4">Step 4 of 5</string>
+    <string name="debtcoin_works_step5">Step 5 of 5</string>
+    <string name="debtcoin_works_requirements">Sign-up:</string>
+    <string name="debtcoin_works_applyloan">Apply for a Loan:</string>
+    <string name="debtcoin_works_cashout">Cash-out:</string>
+    <string name="debtcoin_works_repay">Repay on-time:</string>
+    <string name="debtcoin_works_refer">Refer:</string>
+    <string name="debtcoin_works_step1_desc">Requirements:\nMobile Phone\nReferences (optional)\nWith our mobile application, you can process loan application without paper contracts. You can be approved within 24 hours.</string>
+    <string name="debtcoin_works_step2_desc">Once verified and approved, you can apply for a loan at your own convenience, anytime, anywhere. Credit limit is indicated in your profile. You can choose which account your loan proceed will be sent. You can also choose the terms of how you will pay your loan.</string>
+    <string name="debtcoin_works_step3_desc">You will be notified when the loan proceed will be ready for cash out.</string>
+    <string name="debtcoin_works_step4_desc_1">Repay on-time with any methods indicated below.</string>
+    <string name="debtcoin_works_step4_desc_2">Advance or on-time repayment will increase your rank, thus, increases your credit limit up to Php 50,000.</string>
+    <string name="debtcoin_works_step5_desc">Refer other customers by using your User ID to increase rank status, thus, your credit limit will also increase.</string>
+    <string name="rank_ranking">Ranking</string>
+    <string name="rank_how2advance">How to advance?</string>
+    <string name="rank_paycredits">* Pay your credits on-time</string>
+    <string name="rank_refer_many">* Refer as many customers as possible</string>
+    <string name="rank_note">Note:</string>
+    <string name="rank_note1">* Not paying on time may reduce your credit limit, and worst, your Debtcoin account will be forfeited.</string>
+    <string name="rank_note2">* No payment activity or certain stipulations are not met may lead to legal action (refer to Debtcoin Credit Policy).</string>
+    <string name="apply_loan_amount_label">Amount of loan:</string>
+    <string name="apply_loan_daystopay_label">Days to pay:</string>
+    <string name="apply_loan_cashout_label">Cash out method:</string>
+    <string name="apply_loan_total_label">Total Payable:</string>
+    <string name="applyloan_schedule_title">Amortization Schedule</string>
+    <string name="applyloan_terms">Terms</string>
+    <string name="applyloan_duedate">Due Date</string>
+    <string name="applyloan_amount">Amount</string>
+    <string name="apply_loan_i_accept">I accept</string>
+    <string name="applyloandetails_reason">Reason for loan:</string>
+    <string name="prev">PREV</string>
+
+    <string-array name="dropdown_daystopay">
+        <item></item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="dropdown_daystopay20k">
+        <item></item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>75</item>
+        <item>90</item>
+    </string-array>
+    <string-array name="dropdown_banks">
+        <item></item>
+        <item>Banco De Oro</item>
+        <item>Bank of Philippine Islands</item>
+        <item>Landbank of the Philippines</item>
+        <item>M Lhuillier</item>
+        <item>Cebuana Lhuillier</item>
+        <item>Palawan Express</item>
+        <item>Villarica Pawnshop</item>
+        <item>Coins.ph</item>
+    </string-array>
+    <string-array name="dropdown_reasons">
+        <item>Business Expense</item>
+        <item>Personal Expense</item>
+        <item>Pay Bills</item>
+    </string-array>
+    <string name="loanconfirmation_title">Loan Request Confirmation</string>
+    <string name="loanconfirmation_body_1">Your loan request is under verification.\nExpect a call or message from us within five (5) minutes.\nIf no confirmation was made within that time, please do not hesitate to contact our support team thru <u>www.fb.com/debtcoinph</u> or thru mobile 0998-984-4714.</string>
+    <string name="loanconfirmation_body_2">Thank you for using Debtcoin.</string>
+    <string name="loanconfirmation_body_3">We look forward to serve you soon.</string>
+    <string name="loanconfirmation_body_4">- Debtcoin Team</string>
+    <string name="apply_loan_existing">You have an existing loan or pending loan application. Thus, you cannot apply for a new loan. Settle your outstanding balance first or wait for the response of your loan application.</string>
+    <string name="sample_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at urna at mauris pretium rhoncus eget ac odio. Morbi et molestie sem. Cras semper porta dolor a semper. Duis iaculis erat vel leo pretium, non consequat dolor facilisis. Ut massa tortor, malesuada id tempus quis, placerat vulputate magna. Morbi pretium ipsum sit amet ipsum elementum, vitae lacinia quam tincidunt. In ex purus, bibendum dignissim risus porta, pharetra placerat orci. Praesent placerat enim quis nunc congue porta. Proin porta accumsan elit et sollicitudin. Nulla sed ante ligula. Aliquam sed urna quis nisi egestas lacinia ut in libero. Ut consectetur nibh ac aliquet ultrices. In consequat, sapien eget finibus pretium, risus neque vehicula tellus, eget mollis enim urna at ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin nibh quam, cursus ac leo id, scelerisque tincidunt ipsum.
+\n\nPhasellus fermentum commodo arcu, pretium porttitor diam mattis tempor. Nulla tellus lorem, sodales accumsan rutrum sed, mollis vel magna. Aenean faucibus tincidunt lacus, in bibendum lorem blandit ultricies. Etiam dui dui, semper vel pellentesque sed, eleifend nec orci. Cras non ultricies felis. Proin a ornare nulla, non placerat urna. Etiam ac tortor ultricies, laoreet sapien ut, faucibus arcu. Maecenas non consequat enim. Integer sem orci, lacinia nec est at, bibendum tempus lorem.</string>
+    <string name="makepayment_title">Kindly enter the details of your deposit payment below. Failure to provide accurate info may delay processing. Keep your deposit slip for at least a week in case there is a need for us to validate it.</string>
+    <string name="makepayment_userid">User ID:</string>
+    <string name="makepayment_datedue">Date Due:</string>
+    <string name="makepayment_bankremittance">Bank Name / Remittance Center:</string>
+    <string name="makepayment_reference">Reference:</string>
+    <string name="makepayment_date">Date:</string>
+    <string name="makepayment_time">Time:</string>
+    <string name="makepayment_amount">Amount Paid (Php):</string>
+    <string name="makepayment_takepic">Take a picture of payment slip</string>
+    <string name="submit">SUBMIT</string>
+    <string name="login_forgot_pass">Forgot Password</string>
+    <string name="login_forgot_pass_underlined"><u>Forgot Password</u></string>
+    <string name="login_forgot_pass_uname">Enter User ID:</string>
+    <string name="login_forgot_pass_email">Enter Email:</string>
+    <string name="login_forgot_pass_forgot_uid">Forgot your User ID?</string>
+    <string name="login_forgot_pass_newpass">Enter New Password:</string>
+    <string name="login_forgot_pass_confirmnewpass">Confirm New Password:</string>
+    <string name="apply_loan_cashoutdate">Cash out date:</string>
+    <string name="makepayment_confirmation_title">PAYMENT CONFIRMATION</string>
+    <string name="makepayment_confirmation_subtitle">Thank you for your recent payment!</string>
+    <string name="makepayment_confirmation_body">The transaction is still under verification. Expect a call or message from us within five (5) minutes. If no confirmation was made within that time, please do not hesitate to contact our support team thru <u>www.fb.com/debtcoinph</u> or thru mobile 0998-984-4714.</string>
+    <string name="makepayment_confirmation_body2">Thank you for choosing Debtcoin.</string>
+    <string name="makepayment_confirmation_body3">We look forward to serve you soon.</string>
+    <string name="makepayment_confirmation_debtcointeam">- Debtcoin Team</string>
+    <string name="makepayment_booking">Booking ID:</string>
+    <string name="compute">Compute</string>
+    <string name="notice">Notice:</string>
+    <string name="getcashreminder">DEBTCOIN PAYMENT REMINDER</string>
+    <string name="bookingid">BOOKING ID:</string>
+    <string name="password_rules">Use 6 or more characters with a mix of letters, numbers and symbol. Allowed symbols are  @ ! . *</string>
+    <string name="username_rules">You can use letters, numbers and periods</string>
+
+
+    <string name="terms_and_conditions"><![CDATA[
+<p><b>DEBTCOIN LENDING CORPORATION</b></p>
+<p>LOAN AGREEMENT</p>
+<p>GENERAL TERMS AND CONDITIONS</p>
+<p>This General Terms and Conditions are developed in accordance with the laws of the Republic of the Philippines.</p>
+<p>Art.1. Definitions</p>
+<p>As used in this Agreement, the following terms and expressions shall have the meanings specified below:</p>
+<p>1.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Borrower &ndash; a Loan Applicant whose Loan Application is accepted by the Lender.</p>
+<p>1.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Borrower\'s Obligations - includes payment of the outstanding principal amount of the Loan, interest on the Loan, all other interest, fees, costs, charges, expenses, processing fee and all other sums whatsoever arising from or incident to the loan, and payable by the Borrower to the Lender on or before the Maturity Date, in accordance with the Terms and Conditions contained herein, the Promissory Note, and other related documents</p>
+<p>1.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Calendar Day- any day, excluding weekends and public holidays in the Philippines on which the Lender operates in the ordinary course of business.</p>
+<p>1.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loan Agreement &ndash; the agreement entered into by and between the Lender and the Borrower providing for the Loan and such other related agreements as may be entered into force from time to time by the Parties. The Loan Agreement includes the General Terms and Conditions stated hereunder, the Promissory Note, the Loan Decision, and all schedules and agreements supplemental thereto.</p>
+<p>1.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Disclosure Statement &ndash; the statement given by the Lender to the Borrower before the latter accepts the Loan setting forth the total amount to be financed, the finance charge, all charges in connection with the Loan, and all other items required under the Truth in Lending Act.</p>
+<p>1.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Distance Service - any communication technique through telematic networks facilitated by the Lender so that the Borrower can make the Loan Application and receive the Loan Decision. Distance Service should be understood as the Website https://www.robocash.ph or any other similar means or facility that the Lender makes available to the Loan Applicant for the purpose stated in this Article 1.5.</p>
+<p>1.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; General Terms and Conditions - the terms and conditions governing the Loan as contained herein, in the Promissory Note, and in the other documents which form an integral part of the Loan Agreement, and made available to the Loan Applicant upon the commencement of the Loan Application whether in the form of a hard or soft copy on the Lender\'s Mobile Application page http://bit.ly/debtcoin.</p>
+<p>1.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lender &ndash; DEBTCOIN LENDING CORPORATION, with its principal address at 0206 Purok No. 5, Maganay, Buug, Zamboanga Sibugay, Philippines 7009.</p>
+<p>1.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loan - the loan entered into by the Lender and the Borrower, and governed by these General Conditions, the Promissory Note and the other documents forming an integral part of the Loan Agreement, whereby the Lender grants a personal loan to the Borrower through the Distance Service.</p>
+<p>1.10&nbsp;&nbsp;&nbsp;&nbsp; Loan Applicant &ndash; a natural person who files the Loan Application who shall be of Filipino nationality, over eighteen (18) years of age at the time of the filing of the Loan Application, with full capacity to contract and enter into the Loan, and with permanent address in the Philippines.</p>
+<p>1.11&nbsp;&nbsp;&nbsp;&nbsp; Loan Application - declaration of intention made by the Loan Applicant through the Distance Service or in the Lender\'s branch, to request for a Loan in accordance with these General Conditions, the Promissory Note, and all other documents forming an integral part of the Loan Agreement. The Loan Application shall take effect from the date it is submitted to the Lender for evaluation and will be subject to the internal policies and procedures of the Lender. The approved Application will be credited to the Personal Account of the Borrower on the Lender&rsquo;s mobile application and website admin within one (1) to three (3) calendar days from Lender&rsquo;s receipt of Borrower&rsquo;s acceptance of the Loan Decision.</p>
+<p>1.12&nbsp;&nbsp;&nbsp;&nbsp; Loan Decision &ndash; the final irrevocable decision made by the Lender granting or denying the Loan Application in accordance with these General Conditions, the Promissory Note, and all other documents forming an integral part of the Loan Agreement. It shall contain the Loan Amount and the Maturity Date. It shall be issued by the Lender to the Borrower no later than one (1) day from the date that the Loan Application is received by Lender. The Loan Decision can be provided to the Borrower by SMS and/or direct call via mobile number, depending on the method specified by the Borrower in the Loan Application or on the Lender&rsquo;s discretion, if either method is unavailable at the time of Loan Decision.</p>
+<p>1.13&nbsp;&nbsp;&nbsp;&nbsp; Loan Term - the period provided under Article 4 of these General Conditions.</p>
+<p>1.14&nbsp;&nbsp;&nbsp;&nbsp; Maturity Date &ndash; the last day of the Loan Term (as provided under Section 4) when the Loan Amount and the interest and all other fees and charges are due.</p>
+<p>1.15&nbsp;&nbsp;&nbsp;&nbsp; Mobile Application &ndash; Lender&rsquo;s mobile application (http://bit.ly/debtcoin)</p>
+<p>1.16&nbsp;&nbsp;&nbsp;&nbsp; Party - Loan Applicant, the Lender or the Borrower, considered individually. Likewise, the "Parties" are collectively the Lender, and the Loan Applicant or the Borrower.</p>
+<p>1.17&nbsp;&nbsp;&nbsp;&nbsp; Personal Account &ndash; means the user account created by the Borrower on Lender&rsquo;s mobile application.</p>
+<p>1.18&nbsp;&nbsp;&nbsp;&nbsp; Prolongation Service &ndash; the option granted to the Borrower to extend the Loan Term upon payment of a fee.</p>
+<p>1.19&nbsp;&nbsp;&nbsp;&nbsp; Promissory Note - the corresponding Promissory Note containing the Borrower&rsquo;s unconditional promise to pay the Loan, the terms of the Loan pursuant to the Loan Decision, other terms and conditions of the Loan, and which shall form an integral part of the Loan Agreement. It shall be made available to the Loan Applicant upon approval of the Loan Application.</p>
+<p>The Promissory Note shall be confirmed by the Loan Applicant by SMS and/or direct call via mobile number (for applications filed and processed on the Website) or handwritten signature (for applications filed and processed in the Lender`s branch).</p>
+<p>The Promissory Note, together with the Disclosure Statement provided pursuant to the Truth in Lending Act, will be sent to Borrower&rsquo;s e-mail address and made available to the Borrower in his/her Personal Account on the Lender\'s mobile application.</p>
+
+<p>Art.2. Loan Purpose.</p>
+<p>The Loan issued by the Lender is to be used by the Borrower for legal and legitimate purpose. The loan proceeds shall be used by the Borrower exclusively for business or personal use.</p>
+
+<p>Art.3. Loan Amount.</p>
+<p>The Lender agrees to lend to the Borrower, and the Borrower agrees to borrow from the Lender, the full amount of the Loan, as specified in the Loan Decision and reflected in the Promissory Note and the Borrower&rsquo;s Personal Account.</p>
+
+<p>Art.4. Loan Term.</p>
+<p>Loan Term shall refer to the period within which the Borrower shall pay the principal amount of the Loan in full, together with the corresponding interest and all other charges and fees indicated in the Disclosure Statement, which may range from fifteen (15) calendar days to ninety (90) calendar days, depending on the term approved under the Loan Decision, as indicated in the Promissory Note.</p>
+
+<p>Art.5. Prolongation</p>
+<p>5.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the Prolongation Service is used, the Loan will be extended for the same period, subject to the General Terms and Conditions provided herein, the Promissory Note and all other documents which form an integral part of the Loan Agreement. This service is available during, before or after Maturity Date provided that all interest and default interest (if applicable) are paid.</p>
+<p>5.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to the Prolongation Service will be available to you provided that all due interest and late payment penalties and fees (if any) are paid. The amount of Prolongation Service for the current day will be available to the Borrower in the Personal Account on the Lender\'s mobile application.</p>
+
+<p>Art.6. Interest</p>
+<p>6.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Borrower shall be liable to the Lender for interest on the Loan until the same is paid in full, which interest shall be calculated and paid in accordance with these General Terms and Conditions.</p>
+<p>6.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Interest on the Loan is accrued daily until the Maturity Date. The interest rate is determined individually, and indicated in the Promissory Note and Disclosure Statement.</p>
+
+<p>Art.7. Late Payment Penalties and Fees</p>
+<p>7.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An overlapping fee amounting to PhP500 for monthly amortization, PhP250 for bi-monthly amortization and PhP125 for weekly amortization shall be imposed every time the customer&rsquo;s dues overlapped. Any default payment after Maturity Date of any amount made available under the Loan, shall entitle the Lender to require the Borrower in addition to the unpaid amount a default penalty in the amount of PhP1,000 (for new clients) and PhP800 (for repeat clients) single time and interest of 6% of the unpaid amount per day from the first (1st) day of delay and up to thirtieth day (30th) of delay, 5% of the unpaid amount from the thirty-first day (31st) of delay and until the ninetieth (90th) day of delay, and 3% of the unpaid amount from the ninety-first (91st) day of delay and until the day of the total repayment of the Loan.</p>
+<p>7.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Any amount received by the Lender from the Borrower after Maturity Date will be applied in the order as listed below:</p>
+<p>Any and all charges permitted by law</p>
+<p>Enforcement expenses payment</p>
+<p>Late payment penalties and fees</p>
+<p>All Loan related amounts in the following order: fees, interest amount, principal amount</p>
+
+<p>Art.8. Conditions Precedent to the Release of the Proceeds of the Loan.</p>
+<p>8.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The proceeds of the Loan shall be released only after the conditions set out below have been fulfilled to the Lender`s approval:</p>
+<p>Loan Application is filled in thru Mobile Application and submitted to the Lender,</p>
+<p>Bank account details of the borrower are filled in, but no compulsory;</p>
+<p>In the Borrower\'s Personal account are uploaded Borrower\'s Photo with identity document;</p>
+<p>The Loan Decision is reported to, and confirmed and accepted by the Borrower through SMS confirmation and/or verbal confirmation via direct call.</p>
+<p>The Promissory Note is confirmed and accepted by the Borrower.</p>
+<p>8.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Once the Loan Application submitted by the Borrower is accepted by the Lender, the Borrower shall not be entitled to cancel the Loan or to refuse to accept the Loan proceeds, except for cases when such a refusal entails the application of charges for cancellation, refusal or prepayment as may be stipulated by the Lender. The Borrower agrees that the Lender has the right to approve/reject the cancellation of the Loan as the Lender deems fit.</p>
+<p>8.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Lender shall not be responsible for the release of any Loan proceeds to other/wrong bank account due to data entry errors by the Borrower.</p>
+<p>8.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Lender shall also not be liable for any delays or problems in the release of any Loan proceeds to the third parties upon the written directions and instructions of the Borrower.</p>
+
+<p>Art.9. Full/Partial and Early Loan Repayment.</p>
+<p>9.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Borrower must pay all Loan amount plus interest accrued on the Maturity Date.</p>
+<p>9.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Borrower may prepay the whole or any part of the Loan amount provided that at least half of the Loan Term has elapsed, and at all times not earlier than after seven (07) calendar days from date that the proceeds are remitted to the Borrower.</p>
+<p>9.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the event that the Borrower decides to pay the Loan in full ahead of the time specified in Clause 9.2 hereof, the Borrower must pay the full Loan amount plus interest accrued on the Maturity Date, calculated at the rate specified in the Promissory Note.</p>
+<p>9.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The amount of the full Loan repayment for the current day will be available to the Borrower in the Personal account on the Lender\'s mobile application.</p>
+<p>9.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Information regarding all available methods and channels for Loan repayment will be posted and made available to the Borrower in the Personal account in Lender\'s mobile application.</p>
+
+<p>Art.10 Representations and Undertakings</p>
+<p>10.1&nbsp;&nbsp;&nbsp;&nbsp; The Borrower hereby represents and warrants to the Lender on a continuing basis that:</p>
+<p>The obligation expressed or to be assumed by the Borrower in this Loan Agreement and the Promissory Note, and any relevant documents are legal, valid, binding and enforceable obligations;</p>
+<p>The entry into and performance by the Borrower of, and the transactions contemplated by, this Loan Agreement and the Promissory Note, and any relevant documents do not and shall not conflict with (i) any law or regulation applicable to the Borrower; or (ii) any agreement or instrument binding upon the Borrower;</p>
+<p>No event of default is continuing or might reasonably be expected to result from the making available of the Loan; and</p>
+<p>The Borrower has disclosed to the Lender all information (financial or otherwise) relating to the Borrower and all other relevant parties which is material to be known to the Lender in view of the provisions of this Loan Agreement and the Promissory Note, and other relevant documents and which is true, complete and accurate in all material respects at the date it was given and is not misleading in any respect</p>
+<p>The Borrower has disclosed to the Lender all information relating to the Borrower which is material to the Lender in view of the provisions of the Promissory Note and other relevant documents and which is true, complete and accurate in all material respects as at the date it was given and is not misleading in any respect. The Borrower hereby authorized the Lender to request and obtain data from third party(ies) to verify any information the Borrower provided to the Lender in connection with this Loan Application.</p>
+<p>The Borrower has read, understood and agreed to comply with terms and conditions of the Loan Agreement, Promissory Note, and other relevant documents. The Borrower accepts and agrees to be bound by the Loan Agreement, Promissory Note and other documents including amendments of these documents as an integral part thereof, which the Borrower acknowledges are available for reading or downloading at the Lender\'s mobile application: http://bit.ly/debtcoin and/or notified by the Lender to the Borrower through various communication channels which the Lender deems fit.</p>
+<p>The Borrower understands and acknowledges his/her obligations with respect to making the full, complete and timely payment of his/her loan obligation as stipulated in the Loan Agreement and the Promissory Note.</p>
+<p>The Borrower understands and acknowledges that the Lender has the absolute discretion to accept or reject the Loan Application for valid cause, and that the Loan Application and its supporting documents shall become part of the Lender&rsquo;s record and shall not be returned to the Borrower.</p>
+<p>The Borrower understands and acknowledges that the Borrower&rsquo;s Loan Application should be regarded as an offer only. Official approval of the loan application shall be decided upon the Lender&rsquo;s appraisal and approval according to the Lender&rsquo;s policy from time to time. The Borrower voluntarily agrees to the Lender&rsquo;s decisions. The Borrower shall not file any complaints, or seek redress against the Lender on these matters.</p>
+<p>The Borrower unconditionally acknowledges that the Borrower is truly and lawfully indebted to the Lender on the approved loan amount in case the Lender had disbursed the said amount as stipulated.</p>
+<p>10.2&nbsp;&nbsp;&nbsp;&nbsp; The Borrower covenants with the Lender that during the Loan Term:</p>
+<p>The Borrower shall apply the loan proceeds to his/her business use or personal use such as education, hospitalization, emergency, travel, household, and other personal consumption needs of a similar nature.</p>
+<p>The Borrower shall comply in all respect with all applicable laws in connection with the performance of the Borrower&rsquo;s obligations under this Loan Agreement and the Promissory Note, and other relevant documents;</p>
+<p>The Borrower shall obtain and maintain in full force and effect any authorization, consent or approval required to enable the Borrower to perform the Borrower&rsquo;s obligations under this Loan Agreement and the Promissory Note, and other relevant documents and to ensure the legality, validity, enforceability or admissibility in evidence of this Loan Agreement, Promissory Note, and other relevant documents.</p>
+<p>The Borrower shall notify the Lender in writing of any potential or actual Event of Default (if any is specified in the Loan Agreement and/or the Promissory Note) and any event or circumstance which constitutes a default under any other agreement binding upon the Borrower (and, in each case, the steps, if any, being taken to remedy it) promptly upon becoming aware of its occurrence;</p>
+<p>The Borrower shall provide a prior written notice to the Lender of any change in the Borrower&rsquo;s name, date of birth, residential address within three (3) calendar days of such changes;</p>
+<p>The Borrower shall notify the Lender of any change in the Borrower&rsquo;s employment, business or profession. In the event the Borrower is self-employed, the Borrower hereby undertakes to keep the Lender informed about the personal financial conditions on a periodic basis as requested by the Lender.</p>
+
+<p>Art. 11. Default</p>
+<p>11.1&nbsp;&nbsp;&nbsp;&nbsp; Event of Default</p>
+<p>Any and all of the following shall constitute Events of Default:</p>
+<p>Failure by Borrower to comply with or perform any of the terms and conditions of the Loan Agreement, Promissory Note, or any other agreements between Borrower and Lender;</p>
+<p>Borrower fails to pay when due and payable any principal amounts, interests, costs which Borrower is obliged to pay the Lender under the Loan Agreement and the Promissory Note;</p>
+<p>Any representation or warranty made by Borrower herein or otherwise in connection with the Loan shall prove to have been incorrect or misleading as of the time it was made or deemed to have been made, and without reference to whether or not Lender was in fact prejudiced by such untruthfulness and/or non-fulfillment;</p>
+<p>Borrower voluntarily suspends or ceases his/her personal financial conditions or becomes insolvent or is unable to pay his/her debts when they become due or commits or permits any act of bankruptcy or insolvency;</p>
+<p>Any final judgment or decree for a substantial sum of money, damages or for a fine or penalty is entered against Borrower by a court of competent jurisdiction and is not paid, discharged or fully bonded within ten (10) days after the date when payment of such judgment or decree is due under applicable laws;</p>
+<p>Borrower dies or is convicted of a criminal offense with final judgment carrying with it a penalty of civil interdiction affecting Borrower, or in any of the cases covered by Article 1198 of the Civil Code of the Philippines;</p>
+<p>There shall have occurred a material change in the financial circumstances or condition of Borrower reckoned from the approval of the Loan, which, in the reasonable opinion of Lender, would adversely affect the ability of Borrower to perform the obligations under the Loan Agreement and the Promissory Note.</p>
+<p>11.2&nbsp;&nbsp;&nbsp;&nbsp; Consequence of Default</p>
+<p>Should an Event of Default occur:</p>
+<p>Lender shall have the right, at its discretion, to consider the full amount of the Loan as immediately due and demandable, and require Borrower to make full and immediate payment thereof;</p>
+<p>If the default is a result of a failure of the Borrower to timely pay the Loan, the Late Payment Penalties and Fees prescribed under Article 7 shall apply;</p>
+<p>Lender shall have all the rights to the remedies provided in the Promissory Note and in law for purposes of enforcing its claims against the Borrower.</p>
+<p>To the extent allowed under Philippine law, Borrower accepts to waive any notice or formality meant to enable the Lender to exercise its rights arising from the occurrence of an Event of Default. The failure or the delay to exercise any right, options, power or privilege hereunder shall not operate as a waiver of any right of the Lender to exercise the same hereunder, unless said waiver is given in writing by the Lender, and then only to the extent specifically set forth in said writing.</p>
+
+<p>Art. 12. Indemnity</p>
+<p>The Borrower shall indemnify the Lender against any cost, loss or liability incurred by the Lender as a result of:</p>
+<p>The occurrence of any Event of Default;</p>
+<p>The information produced or confirmed by the Borrower being or being alleged to be misleading and/or deceptive in any respect;</p>
+<p>Any inquiry, investigation, subpoena (or similar order or litigation with respect to the Borrower) or with respect to the transactions contemplated or financed under this Loan Agreement and the Promissory Note;</p>
+
+<p>Art. 13. Disclosure of Information</p>
+<p>13.1&nbsp;&nbsp;&nbsp;&nbsp; The Borrower hereby expressly permits the Lender to transfer and disclose to (i) the government authorities; (ii) any party/person proposing or considering to tender any payment towards or purchase the indebtedness under the Loan; (iii) its auditors, lawyers or any other debt collection agents; (v) credit reporting agencies; (vi) insurance companies, agents, contractors or third party service providers who are involved in the provision of products and services to or by the Lender and the holding company, head office, other branches, subsidiaries, related companies of the Lender; or (vii) for provision of or cross selling of products and services, any information relating to the Borrower&rsquo;s affairs or account in respect of the Loan, this Loan Agreement and the Promissory Note, and at any time and to such extent as the Lender may at its absolute discretion deem expedient or necessary. The Borrower hereby agrees that the aforesaid information may be used, encrypted, transmitted and stored by the Lender and its holding company, head office, other branches, subsidiaries, related companies and/or may be exchanged to or with all such persons as the Lender considers necessary to the extent as permitted by Philippine laws. The aforesaid actions are without liability to the Borrower. The Borrower expressly consents to such actions and declares that no further consent from the Borrower is necessary or required in relation thereto.</p>
+<p>13.2&nbsp;&nbsp;&nbsp;&nbsp; Notification Regarding R.A. No. 9510. Pursuant to Republic Act (R.A.) No. 9510 and its Implementing Rules and Regulations (IRR), creating the Credit Information Corporation (CIC) we are mandated to submit your basic credit data (as defined in R.A. No. 9510 and its IRR), as well as any regular updates or corrections thereof, to the CIC for consolidation and disclosure as may be authorized by the CIC, and other credit reporting agencies duly accredited by CIC, for the purpose of establishing your creditworthiness.</p>
+<p>13.3&nbsp;&nbsp;&nbsp;&nbsp; In case the Borrower fails to pay fully or correctly or timely the loan obligation, in addition to debt recovery measures as specified herein/therein or in accordance with the Philippine laws, the Lender shall be entitled to provide information on such failure to third parties, including but not limited to collection agencies for the purpose of collecting the loan obligation.</p>
+
+<p>Art. 14. Set-off</p>
+<p>The Lender at its discretion without prior Borrower\'s consent shall set-off or deduct any amount from any account of the Borrower held at the Lender against any obligation due from the Borrower under this Loan Agreement, the Promissory Note, and other related documents, regardless of the place of payment, booking branch or currency of either obligation. Any set- off of fixed deposit by the Lender shall be deemed as premature withdrawal by the Borrower. If the currency of obligation is different from the currencies of accounts, the Lender may convert the currencies of the account into the currency of the obligation by reference to the market rate of exchange in its usual course of business.</p>
+<p>Art. 15. Review</p>
+<p>15.1&nbsp;&nbsp;&nbsp;&nbsp; The Loan is subject to the Lender\'s review at any time and also subject to the Lender\'s overriding right of withdrawal and repayment on demand, which the Lender reserves the right to exercise at any time.</p>
+<p>15.2&nbsp;&nbsp;&nbsp;&nbsp; The Lender shall have the right to review and revise the Terms and Conditions specified hereunder at any time at its sole discretion.</p>
+
+<p>16. Notices</p>
+<p>16.1&nbsp;&nbsp;&nbsp;&nbsp; Notice to the Borrower</p>
+<p>A notice given to the Borrower in connection with this Loan Agreement and/or the Promissory Note may be delivered by hand or sent by prepaid ordinary post or sent by email (electronic mail) or sent as notification to the Borrower&rsquo;s personal account in the mobile application or sent by message to the mobile number of the addressee which is specified in the Loan Application form and/or the Promissory Note. A notice given to the Borrower shall be treated as having been given and received:</p>
+<p>(i) If delivered, on the day of delivery if a Calendar Day, otherwise on the next Business Day;</p>
+<p>(ii) If sent by prepaid mail, on the second Business Day after posting;</p>
+<p>(iii) If sent by email and no failure notice is received by the sender, one hour after the time of the sending of the email;</p>
+<p>(iv) If sent as notification to the Borrower&rsquo;s personal account in the mobile application and no failure notice is received by the sender, one hour after the time of the sending of the notification;</p>
+<p>(v) If sent by text message and no failure notice is received by the sender, at the time of sending.</p>
+<p>16.2&nbsp;&nbsp;&nbsp;&nbsp; Notice to the Lender</p>
+<p>Notices, demands or other communications shall be addressed to the Lender at its place of residence and may be delivered personally, by leaving it at such address, or by sending message through the mobile application, or email, or by phone and shall be deemed to have been delivered to the Lender on the day of actual receipt.</p>
+
+<p>Art. 17. Entire Agreement</p>
+<p>This Agreement constitutes the entire agreement and supersedes all prior agreements, understandings, representations, warranties and arrangements of whatever nature whatsoever, both written and oral, among the Parties with respect to the subject matter of this Agreement.</p>
+
+<p>Art. 18. Assignment and Transfer</p>
+<p>Notwithstanding any other provisions of this Loan Agreement and/or the Promissory Note, the Lender may at any time: (i) assign or transfer its rights and obligations; or (ii) create security in or over any and all of its rights or obligations under this Loan Agreement and the Promissory Note to any person on provision of seven (7) Business Day written notice to the Borrower. The Borrower is not permitted to assign or transfer any of the Borrower&rsquo;s rights or obligations under this Loan Agreement and the Promissory Note without prior written consent of the Lender.</p>
+
+<p>Art. 19. Waiver</p>
+<p>The delay or failure of the Lender to exercise of any of its rights whether under this Loan Agreement, the Promissory Note, or otherwise, shall not be construed or deemed as a waiver of the Lender to such rights.</p>
+
+<p>Art. 20. Language and Governing Law</p>
+<p>This Loan Agreement and the Promissory Note are governed by the laws of the Philippines. The competent courts of Philippines have jurisdiction to settle any dispute arising out of or in connection with this Loan Agreement and the Promissory Note (including all disputes regarding the existence, validity or termination).</p>
+
+<p>Art. 21. Term of the Loan Agreement</p>
+<p>Unless terminated by the Lender, this Loan Agreement shall take effect from the date the funds are remitted to the Borrower in the manner specified in Promissory Note until such time as the provisions specified hereunder are needed to remain in force and effect between the Parties unless otherwise agreed by the Parties.</p>
+
+<p>&ldquo;Last Updated on August 12, 2018 6:26 AM. DebtCoin Lending Corporation reserves the right to change or modify the Terms and Conditions without prior notice.&rdquo;</p>
+
+  ]]></string>
+
+    <string name="privacy_policy"><![CDATA[
+<p><b>DEBTCOIN LENDING CORPORATION</b></p>
+<p>PRIVACY POLICY</p>
+<p>Users (hereinafter referred to as &ldquo;User&rdquo;, individually, and &ldquo;Users&rdquo;, collectively) of the mobile application http://bit.ly/debtcoin (hereinafter referred to as &ldquo;Mobile Application&rdquo;) are provided with the appropriate technical resources so that, prior to the voluntary completion of User Data, Users can access this Privacy Policy and any other relevant information on the Protection of User Data.</p>
+<p>This Privacy Policy is applicable to any User of the afore-mentioned Mobile Application and any applicant for a loan of DEBTCOIN LENDING CORP. (hereinafter referred to as &ldquo;DEBTCOIN&rdquo;), so Users are advised to review it periodically for updates that are implemented on a regular basis.</p>
+<p>The User is advised to read this Privacy Policy intently because use of the Mobile Application implies that the User consents to the Mobile Application&rsquo;s treatment of the User&rsquo;s Data.</p>
+<p><br />1. General Terms</p>
+<p>1.1. This Privacy Policy is valid in relation to all User Data received by DEBTCOIN from the natural person holding such User data at the time of using or attempting to use the services of DEBTCOIN, including contracting loans.</p>
+<p>1.2. User accepts this Privacy Policy through the use of the mobile application and gives consent for the collection, processing, storage and transmission of the User&rsquo;s Data in the formats prescribed by the applicable Philippine laws and regulations as well as this Privacy Policy.</p>
+<p>1.3. The purpose of this Privacy Policy is to respect the Users&rsquo; rights to the User Data owners in relation to the collection and processing of such Data by DEBTCOIN.</p>
+<p><br />2. User Data</p>
+<p>2.1. Collection of User Data is done through several sources:</p>
+<p>2.1.1 by virtue of the registration on the Mobile Application;</p>
+<p>2.1.2 upon completing the online loan application form;</p>
+<p>2.1.3 by virtue of communication with DEBTCOIN employees;</p>
+<p>2.1.4 by virtue of credit reports and data;</p>
+<p>2.1.5 by virtue of navigation through the Mobile Application; and,</p>
+<p>2.1.6 by virtue of accessing the camera and uploading photos in mobile devices.</p>
+<p>2.2. User Data are both Personal and Non-Personal Information</p>
+<p>2.2.1. Personal Information is any information from which the identity of a User can be reasonably and directly ascertained, or when put together with other information would directly and certainly identify an individual, such as name, gender, date of birth, address, telephone/mobile number, email address, proof of identification, etc. It also includes information about:</p>
+<p>2.2.1.1. the data that would help DEBTCOIN evaluate the User&rsquo;s credit standing such as spouse details financial details, business details, and other data points whenever applicable;</p>
+<p>2.2.1.2. the location of the User&rsquo;s device as used to access the mobile application; and</p>
+<p>2.2.1.3. the User&rsquo;s navigation experience when accessing the Mobile Application to see activities done in the Mobile Application, the pages visited, and the sequence thereof.</p>
+<p>2.2.2. Non-Personal Information is any information that does not identify the User individually, and includes statistical and analytical data, and anonymous and aggregate reports.</p>
+<p>2.2.3. The User may also be requested to update Personal Information from time to time. Should the User be unable to supply the required Personal Information, DEBTCOIN may be unable to provide the User with requested products and services and updates on the latest offerings. The User may also be unable to participate in DEBTCOIN events, promotions or other activities.</p>
+<p>2.2.3. Depending on the Users&rsquo; device settings, when Users access the Mobile Application and electronically communicate with DEBTCOIN, DEBTCOIN may use cookies, small data text files or similar technologies to identify the Users \' devices and record the Users&rsquo; preferences, with the Users&rsquo; consent.</p>
+<p>2.3.4. The User has the duty to inform DEBTCOIN of any change in the information provided, in order to keep it updated and avoid errors.</p>
+<p>3. Anti-Money Laundering Compliance</p>
+<p>3.1. The Anti-Money Laundering Act (hereinafter referred to as &ldquo;AMLA&rdquo;), as amended, requires all Covered Institutions to obtain, verify, and record information that identifies each person who applies for a loan.</p>
+<p>3.2. Being a Covered Institution under AMLA, DEBTCOIN will ask for the User&rsquo;s name, address, date of birth, business, tax identification number, Social Security System or Government Service Insurance System numbers, and other information that will allow DEBTCOIN to identify the User.</p>
+<p>3.3. DEBTCOIN may also ask to see the User&rsquo;s driver&rsquo;s license, passport, or other competent evidence of identity bearing the User photograph and signature in order to comply with AMLA and other applicable laws and regulations.</p>
+<p><br />4. User Data Processing</p>
+<p>4.1. Without limitation, User data may be treated by DEBTCOIN among others for the following purposes:</p>
+<p>4.1.1. Verify the User&rsquo;s identity;</p>
+<p>4.1.2. Manage the provision of services being offered by the Mobile Application, such as processing the loan application or rendering the loan credit decision, among others;</p>
+<p>4.1.3. Evaluate the User&rsquo;s credit standing through external credit report providers and bureaus;</p>
+<p>4.1.4. Contact the User;</p>
+<p>4.1.5. Transfer the loan proceeds;</p>
+<p>4.1.6. Manage and recover outstanding debt;</p>
+<p>4.1.7. Update the information regarding the loan granted;</p>
+<p>4.1.8 Enhance the User \'s customer experience and improve, develop and determine customized products to meet customer preferences and needs;</p>
+<p>4.1.9. Send commercial communications on the products and services;</p>
+<p>4.1.10. Improve the service and contents of the service through statistical analysis and market research;</p>
+<p>4.1.11. Abide by any safety, security, public service or legal requirements and processes;</p>
+<p>4.1.12. Process information for statistical, analytical, and research purposes; and</p>
+<p>4.1.13. Any other purpose expressly provided in the Loan Application Form and/or in the General Conditions as well as in the Promissory Note / Disclosure Statement.</p>
+<p>4.2. DEBTCOIN also uses the User&rsquo;s Personal Information to the extent necessary to comply with the requirements of the law and legal process, such as a court order; to comply with legal obligations; or to prevent all damages to public security, safety or order.</p>
+<p>4.3. DEBTCOIN also uses the User&rsquo;s Non-Personal Information for statistical, analytical, and research purposes to create anonymous and aggregate reports.</p>
+<p>4.4. User consents that DEBTCOIN maintains the data provided even when the loan application has not been accepted, in order to ensure compliance with legal obligations and avoid duplication in the new applications treatment.</p>
+<p>4.5. DEBTCOIN outsources or contracts the processing of User Data to third parties, such as but not limited to the following parties: vendors, service providers, partners or other telecommunications operators, to fulfill any of the above purposes. These parties are only authorized to use User Data for such contracted purposes. These parties may have access to User Data for a limited time under reasonable contractual and technical safeguards to limit their use of such information. DEBTCOIN requires these parties to protect User Data in compliance with this Privacy Policy.</p>
+<p><br />5. Third-Party Links and Other Companies / Organizations</p>
+<p><br />5.1. Links to other websites or mobile applications (i.e. third-party links) may appear on which have its own privacy policy and are understood as accepted by clicking on them. This Privacy Policy does not apply to such third-party links that may appear on the Website. The responsibility of DEBTCOIN with regards to the User&rsquo;s Data extends only to the Mobile Application proper.</p>
+<p>5.2. This Privacy Policy also does not regulate the data processing activities of other companies and organizations that advertise DEBTCOIN \'s services.</p>
+<p><br />6. Contacts</p>
+<p>6.1. For any concerns regarding the User \'s personal data, the duly-designated Data Privacy Officer of DEBTCOIN may be contacted, as follows:</p>
+<p><br />Name: Khen Pios Ferrer</p>
+<p>Designation: Credit &amp; Collections Manager</p>
+<p>Address: Area A3, Batasan Hills, Quezon City, Philippines, 1126</p>
+<p>Phone Number: (+63) 998 984 4714</p>
+<p>Email Address: debtcoinph@gmail.com</p>
+<p>Mobile Application Link: http://bit.ly/debtcoin</p>
+
+<p>&ldquo;Last Updated on August 12, 2018 1:16 AM. DebtCoin Lending Corporation reserves the right to change or modify the Privacy Policy without prior notice.&rdquo;</p>
+
+    ]]></string>
+    <string name="please_read_tnc_privacy">Please indicate that you have read and accepted the terms of service and privacy policy</string>
+
+    <string name="item_1"><![CDATA[
+<p>Debtcoin is a micro-lending corporation that uses latest technology such as developing mobile<br />applications to offer personalized lending experience.</p>
+<p><br /> <strong>Vision</strong><br /> For short term, Debtcoin is the primary option of Filipinos in providing them small loans using our lending<br />technology for convenient and enjoyable transactions. \nFor long term, Debtcoin expands as financial entity that extends its system features and professional<br />services to invest, offer loans and finance Filipino entrepreneurs&rsquo; business ideas.</p>
+<p><br /> <strong>Mission</strong><br /> Internally, we intend to create and nurture a healthy, exuberant and respectful environment in which<br />employees are fairly compensated and encouraged to respect the customers and the quality of service<br />we intend to provide.\nExternally, excellence in fulfilling the promise: we intend to offer completely enjoyable lending interface at<br />faster approval, bigger initial credit limit, lower interest rate and few loan requirements.</p>
+    ]]></string>
+</resources>

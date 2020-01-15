@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/Android Projects/debtcoin/DebtcoinApp.iml" filepath="E:/Android Projects/debtcoin/DebtcoinApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DebtcoinBorrowersApp.iml" filepath="$PROJECT_DIR$/.idea/DebtcoinBorrowersApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debtcoin.iml" filepath="$PROJECT_DIR$/debtcoin.iml" />
+    </modules>
+  </component>
+</project>

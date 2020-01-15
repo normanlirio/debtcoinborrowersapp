@@ -1,0 +1,331 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    android:id="@+id/relative_debtcoinworks_container"
+    tools:context="com.debtcoin.debtcoinapp.Fragments.DebtcoinWorks">
+
+  <ScrollView
+      android:layout_marginBottom="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true"
+      >
+      <LinearLayout
+
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+
+          <LinearLayout
+              android:layout_marginTop="10dp"
+              android:background="@color/md_white_600"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/md_white_1000"
+                  android:text="@string/debtcoin_works_quote"
+                  android:textSize="@dimen/debtcoin_works_text_720"
+                  />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_marginTop="10dp"
+              android:background="@color/md_white_600"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/md_white_1000"
+                  android:text="@string/debtcoin_works_step1"
+                  android:textStyle="bold"
+                  android:textSize="@dimen/debtcoin_works_text_720"
+                  />
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  >
+
+                  <ImageView
+                      android:layout_marginRight="5dp"
+                      android:layout_width="@dimen/debtcoin_works_icons_720"
+                      android:layout_height="@dimen/debtcoin_works_icons_720"
+                      android:background="@drawable/img_requirementsn_debtcoinworks"
+                      />
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      >
+                      <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/md_black_1000"
+                          android:text="@string/debtcoin_works_requirements"
+                          android:textStyle="bold"
+
+                          android:textSize="@dimen/debtcoin_works_text_720"
+                          />
+                      <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/md_white_1000"
+                          android:text="@string/debtcoin_works_step1_desc"
+                           android:textSize="@dimen/debtcoin_works_text_720"
+                          />
+                  </LinearLayout>
+              </LinearLayout>
+          </LinearLayout>
+
+          <!-- step 2 -->
+
+          <LinearLayout
+              android:layout_marginTop="10dp"
+              android:background="@color/md_white_600"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/md_white_1000"
+                  android:text="@string/debtcoin_works_step2"
+                  android:textStyle="bold"
+                  android:textSize="@dimen/debtcoin_works_text_720"
+                  />
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  >
+
+                  <ImageView
+                      android:layout_marginRight="5dp"
+                      android:layout_width="@dimen/debtcoin_works_icons_720"
+                      android:layout_height="@dimen/debtcoin_works_icons_720"
+                      android:background="@drawable/img_apply_loan_debtcoinworks"
+                      />
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      >
+                      <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/md_black_1000"
+                          android:text="@string/debtcoin_works_applyloan"
+                          android:textStyle="bold"
+
+                          android:textSize="@dimen/debtcoin_works_text_720"
+                          />
+                      <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/md_white_1000"
+                          android:text="@string/debtcoin_works_step2_desc"
+                          android:textSize="@dimen/debtcoin_works_text_720"
+                          />
+                  </LinearLayout>
+              </LinearLayout>
+          </LinearLayout>
+
+          <!-- step 3 -->
+
+          <LinearLayout
+              android:layout_marginTop="10dp"
+              android:background="@color/md_white_600"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/md_white_1000"
+                  android:text="@string/debtcoin_works_step3"
+                  android:textStyle="bold"
+                  android:textSize="@dimen/debtcoin_works_text_720"
+                  />
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  >
+
+                  <ImageView
+                      android:layout_marginRight="5dp"
+                      android:layout_width="@dimen/debtcoin_works_icons_720"
+                      android:layout_height="@dimen/debtcoin_works_icons_720"
+                      android:background="@drawable/img_cashoutn_debtcoinworks"
+                      />
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      >
+                      <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/md_black_1000"
+                          android:text="@string/debtcoin_works_cashout"
+                          android:textStyle="bold"
+
+                          android:textSize="@dimen/debtcoin_works_text_720"
+                          />
+                      <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/md_white_1000"
+                          android:text="@string/debtcoin_works_step3_desc"
+                          android:textSize="@dimen/debtcoin_works_text_720"
+                          />
+                  </LinearLayout>
+              </LinearLayout>
+          </LinearLayout>
+
+            <!-- step 4 -->
+          <LinearLayout
+              android:layout_marginTop="10dp"
+              android:background="@color/md_white_600"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/md_white_1000"
+                  android:text="@string/debtcoin_works_step4"
+
+                  android:textSize="@dimen/debtcoin_works_text_720"
+                  />
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  >
+                  <TextView
+
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/md_black_1000"
+                      android:text="@string/debtcoin_works_repay"
+                      android:textStyle="bold"
+
+                      android:textSize="@dimen/debtcoin_works_text_720"
+                      />
+                  <TextView
+                    android:layout_marginBottom="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/md_white_1000"
+                      android:text="@string/debtcoin_works_step4_desc_1"
+
+                      android:textSize="@dimen/debtcoin_works_text_720"
+                      />
+
+                  <android.support.v7.widget.RecyclerView
+                      android:layout_gravity="center"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/recycler_howworks_items"
+                      ></android.support.v7.widget.RecyclerView>
+
+                  <TextView
+                      android:layout_marginTop="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/md_white_1000"
+                      android:text="@string/debtcoin_works_step4_desc_2"
+
+                      android:textSize="@dimen/debtcoin_works_text_720"
+                      />
+              </LinearLayout>
+          </LinearLayout>
+
+
+          <!-- step 5 -->
+          <LinearLayout
+              android:layout_marginTop="10dp"
+              android:background="@color/md_white_600"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/md_white_1000"
+                  android:text="@string/debtcoin_works_step5"
+                  android:textStyle="bold"
+                  android:textSize="@dimen/debtcoin_works_text_720"
+                  />
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  >
+
+                  <ImageView
+                      android:layout_marginRight="5dp"
+                      android:layout_width="@dimen/debtcoin_works_icons_720"
+                      android:layout_height="@dimen/debtcoin_works_icons_720"
+                      android:background="@drawable/img_refern_debtcoinworks"
+                      />
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      >
+                      <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/md_black_1000"
+                          android:text="@string/debtcoin_works_refer"
+                          android:textStyle="bold"
+
+                          android:textSize="@dimen/debtcoin_works_text_720"
+                          />
+                      <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="@color/md_white_1000"
+                          android:text="@string/debtcoin_works_step5_desc"
+                          android:textSize="@dimen/debtcoin_works_text_720"
+                          />
+                  </LinearLayout>
+              </LinearLayout>
+          </LinearLayout>
+
+
+
+      </LinearLayout>
+  </ScrollView>
+
+</RelativeLayout>

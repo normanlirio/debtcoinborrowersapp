@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/debtcoin_tealgreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/seoptimist</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_loggedin_gradient</item>
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_loggedin_gradient</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:fontFamily">@font/seoptimist</item>
+        <item name="android:typeface">serif</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="android:color">@color/md_white_1000</item>
+        <item name="android:textSize">@dimen/nav_header_main_normal</item>
+
+    </style>
+    <style name="DrawerArrowStyle480" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="android:color">@color/md_white_1000</item>
+        <item name="android:textSize">@dimen/nav_header_main_480</item>
+
+    </style>
+    <style name="DrawerArrowStyle600" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="android:color">@color/md_white_1000</item>
+        <item name="android:textSize">@dimen/nav_header_main_600</item>
+
+    </style>
+    <style name="DrawerArrowStyle72" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="android:color">@color/md_white_1000</item>
+        <item name="android:textSize">@dimen/nav_header_main_720</item>
+
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/skyapp_red</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_background"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_logo" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="@color/md_white_1000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/twentytwo"
+                android:text="@string/sorryforthe"
+                />
+            <TextView
+                android:textColor="@color/md_white_1000"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_normal"
+                android:text="@string/sorrymessage"
+                />
+            <Button
+                android:id="@+id/button_registerlimit_back"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/img_next_button_bg"
+
+                android:layout_width="160dp"
+                android:layout_height="51dp"
+                android:textSize="@dimen/text_normal"
+                android:textColor="@color/md_white_1000"
+                android:text="BACK"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
